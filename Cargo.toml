@@ -12,10 +12,10 @@ edition       = "2018"
 
 [dependencies]
 ring         = "0.17"
-lamport_sigs = { git = "https://github.com/antbern/lamport_sigs.rs" }
+lamport_sigs = { git = "https://github.com/ETO-GRUPPE-TECHNOLOGIES-GmbH/lamport_sigs.rs" }
 
 [dependencies.merkle]
-git = "https://github.com/antbern/merkle.rs"
+git = "https://github.com/ETO-GRUPPE-TECHNOLOGIES-GmbH/merkle.rs"
 features = ["serialization-protobuf"]
 
 [package.metadata.release]
