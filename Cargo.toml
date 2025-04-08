@@ -1,22 +1,19 @@
 [package]
-name          = "merkle_sigs"
+name          = "etospheres-labs-merkle_sigs"
 version       = "1.7.1-pre"
 authors       = ["Frederic Jacobs <github@fredericjacobs.com>"]
 description   = "Implementation of Merkle signing"
 license       = "BSD-3-Clause"
 readme        = "README.md"
 documentation = "https://docs.rs/merkle_sigs"
-homepage      = "https://github.com/SpinResearch/merkle_sigs.rs"
-repository    = "https://github.com/SpinResearch/merkle_sigs.rs"
+homepage      = "https://github.com/ETOSPHERES-Labs/merkle_sigs.rs"
+repository    = "https://github.com/ETOSPHERES-Labs/merkle_sigs.rs"
 edition       = "2018"
 
 [dependencies]
 ring         = "0.17"
-lamport_sigs = { git = "https://github.com/ETO-GRUPPE-TECHNOLOGIES-GmbH/lamport_sigs.rs" }
-
-[dependencies.merkle]
-git = "https://github.com/ETO-GRUPPE-TECHNOLOGIES-GmbH/merkle.rs"
-features = ["serialization-protobuf"]
+lamport_sigs = { package = "etospheres-labs-lamport_sigs", version = "0.7.1-pre" }
+merkle = { package = "etospheres-labs-merkle", version = "1.11.1-pre", features = ["serialization-protobuf"] }
 
 [package.metadata.release]
 sign-commit                 = true

@@ -4,6 +4,8 @@
 [![Available on Crates.io as merkle_sigs](https://img.shields.io/crates/v/merkle_sigs.svg)](https://crates.io/crates/merkle_sigs)
 ![License](https://img.shields.io/badge/license-bsd3-brightgreen.svg?style=flat)
 
+> Note: This is a fork of the [original `merkle_sigs` crate](https://crates.io/crates/merkle_sigs)
+
 *merkle_sigs* is a Rust implementation of a [Merkle signing scheme](https://blog.cryptographyengineering.com/2018/04/07/hash-based-signatures-an-illustrated-primer/).
 
 ## Documentation
